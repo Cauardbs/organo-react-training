@@ -1,4 +1,4 @@
-
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import './rodape.css'
 
 const Rodape = () => {
@@ -6,18 +6,18 @@ const Rodape = () => {
        <section>
        <ul>
             <li>
-                <a href="facebook.com" target="_blank">
-                    <img src="/imagens/facebook.png" alt="" />
+                <a href="https://linkedin.com/in/cauã-rodrigues-b350bb263" target="_blank">
+                    <FaLinkedin size={30} />
                 </a>
             </li>
             <li>
-                <a href="twitter.com" target="_blank">
-                    <img src="/imagens/twitter.png" alt="" />
+                <a href="https://github.com/Cauardbs" target="_blank">
+                    <FaGithub size={30} />
                 </a>
             </li>
             <li>
-                <a href="instagram.com" target="_blank">
-                    <img src="/imagens/instagram.png" alt="" />
+                <a href="https://instagram.com/caua.rdbs" target="_blank">
+                <FaInstagram size={30}/>
                 </a>
             </li>
         </ul>
@@ -27,7 +27,7 @@ const Rodape = () => {
        </section>
        <section>
         <p>
-            Desenvolvido por Alura.
+            Desenvolvido por Cauã Rodrigues.
         </p>
        </section>
     </footer>)

@@ -15,3 +15,8 @@
 .footer ul li:last-child {
     margin-right: 0;
 }
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
